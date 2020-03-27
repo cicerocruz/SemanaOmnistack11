@@ -6,23 +6,23 @@
 	:construction: 🚀 Semana OmniStack 11.0 ( In progress.. ) :construction:
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cicerocruz/SemanaOmnistack11?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cicerocruz/SemanaOmnistack11?color=%23FC943D">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cicerocruz/SemanaOmnistack11">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cicerocruz/SemanaOmnistack11?color=%23FC943D">
 	
   <a href="https://www.linkedin.com/in/cicerocruz/">
-    <img alt="Made by Cicero Cruz" src="https://img.shields.io/badge/made%20by-C%C3%ADcero%20Cruz-%23FF0000">
+    <img alt="Made by Cicero Cruz" src="https://img.shields.io/badge/made%20by-C%C3%ADcero%20Cruz-%23FC943D">
   </a>
 
-  <a href="https://github.com/DanielObara/SemanaOmnistack11/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cicerocruz/SemanaOmnistack11">
+  <a href="https://github.com/cicerocruz/SemanaOmnistack11/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cicerocruz/SemanaOmnistack11?color=%23FC943D">
   </a>
 
-  <a href="https://github.com/DanielObara/SemanaOmnistack11/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/cicerocruz/SemanaOmnistack11">
+  <a href="https://github.com/cicerocruz/SemanaOmnistack11/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/cicerocruz/SemanaOmnistack11?color=%23FC943D">
   </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=%23FC943D">
 </p>
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
