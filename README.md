@@ -29,13 +29,14 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-conceitos">Lições Aprendidas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-contato">Entre em Contato</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
 <br>
 
 
-## Tecnologias
+## 🔧 Tecnologias
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -52,7 +53,7 @@ Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
     <img alt="Login-Page" title="Login-Page" src=".github/preview.jpg" width="500px" />
 </h1>
 
-## 🟩 Conceitos
+## 📌 Conceitos
 
 ### Aula 02
 
@@ -61,7 +62,6 @@ Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
 > Rotas : É o endereço completo da url inclusive o recurso.
 
 > Recurso: É o final da URL representando provalvemente uma entidade da aplicação. Ex: /users
-
 
 #### Métodos HTTP
 
@@ -97,8 +97,6 @@ Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
 
 ### Aula 03
 
-#### Conceitos aprendidos
-
 > Componente : Um Componente é uma função que retorna HTML. 
 
 > JSX: É o nome dado para a mistura de JavaScript com HTML.
@@ -118,6 +116,11 @@ Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
 <img src=".github/register.png" width="620px" >
 <br>
 
+## 💬 Contato
+------------------
+Obrigado por chegar até aqui! 
+
+[*Entre em contato comigo*](https://www.linkedin.com/in/cicerocruz/)
 
 ## :memo: License
 
