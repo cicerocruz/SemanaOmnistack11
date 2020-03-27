@@ -113,9 +113,9 @@ Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
 
 **Web**
 
-<img src=".github/index.PNG" width="620px" >
+<img src=".github/index.png" width="620px" >
 <br>
-<img src=".github/register.PNG" width="620px" >
+<img src=".github/register.png" width="620px" >
 <br>
 
 
