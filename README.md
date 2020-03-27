@@ -25,8 +25,8 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 <p align="center">
-  <a href="#cruz-Technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Projecto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#CRUZ-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -34,18 +34,18 @@
 <br>
 
 
-## :cruz: Technologies
+## :CRUZ:Tecnologias
 
-This project was developed with the following technologies:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/) 
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
-## 💻 Project
+## 💻 Projeto
 
-Be The Hero is a project that aims to connect people who are willing to help ONGs.
+Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
 
 <h1 align="center">
     <img alt="Login-Page" title="Login-Page" src=".github/preview.jpg" width="500px" />
@@ -53,8 +53,8 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
 
 ## 🔖 Layout
 
-:construction: In progress.. :construction:
+:construction: Em Progresso.. :construction:
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
+Este projeto está sob a licença MIT. 
