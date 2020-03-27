@@ -111,7 +111,13 @@ Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
 
 ## 🔖 Layout
 
-:construction: Em Progresso.. :construction:
+**Web**
+
+<img src=".github/index.PNG" width="620px" >
+<br>
+<img src=".github/register.PNG" width="620px" >
+<br>
+
 
 ## :memo: License
 
