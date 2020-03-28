@@ -27,6 +27,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-necessita">Dependências</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-conceitos">Lições Aprendidas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contato">Entre em Contato</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -42,12 +43,61 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/) 
 - [React](https://reactjs.org)
+- [ReactJS](https://reactjs.org/)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
+- [Express](https://expressjs.com/pt-br/)
+- [SQLite](https://www.sqlite.org/index.html)
+- [Sequelize](https://sequelize.org/)
+- [Nodemon](https://nodemon.io/)
+- [Sucrase](https://github.com/alangpierce/sucrase)
+- [React Router DOM](https://reacttraining.com/react-router/)
+- [React Navigation](https://reactnavigation.org/)
+- [React Icons](https://react-icons.netlify.com/#/)
+- [UnForm](https://unform.dev/) [💜](https://rocketseat.com.br/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://github.com/axios/axios)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
+
+## 🔧 Necessita
+
+### Ferramentas
+
+- Chocolatey
+- NodeJS LTS
+- React
+- React Native
+- Insomnia
+
+### Dependências
+
+Em backend:
+- express
+- nodemon
+- knex
+- sqlite3
+- crypto
+- cors
+
+Em frontend:
+- react
+- react-dom
+- react-icons (Feather Icons)
+- react-scripts
+- react-router-dom
+- axios (Cliente HTTP)
 
 ## 💻 Projeto
 
 Be The Hero é um projeto que visa conectar pessoas dispostas a ajudar ONGs.
+
+Com essa aplicação as ONGs podem informar sobre seus casos, necessidades e o valor necessário para solucionar o problema.
+
+A partir dessas informações toda a sociedade pode contruibir com um determinado caso e ser o herói de dia para aquela ONG.
+
+É visado por meio da interação entre ONG e comunidade: A ampliação da área de atuação da ONG, o aumento da velocidade e eficácia na resolução dos problemas.
 
 <h1 align="center">
     <img alt="Login-Page" title="Login-Page" src=".github/preview.jpg" width="500px" />
