@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	:construction: 🚀 Semana OmniStack 11.0 ( In progress.. ) :construction:
+	🚀 Semana OmniStack 11.0 
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cicerocruz/SemanaOmnistack11?color=%23FC943D">
