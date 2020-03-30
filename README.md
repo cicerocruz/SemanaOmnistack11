@@ -157,6 +157,34 @@ A partir dessas informações toda a sociedade pode contruibir com um determinad
 
 > Imutabilidade: Por uma questão de performace, o valor de estados não podem ser alterados de forma direta, eles precisam ser sobrepostos.
 
+### Aula 04
+
+#### Conceitos aprendidos
+
+> Expo : Framework para unificar o desenvolvimento mobile, eliminando a preocupação de compilação para várias plataformas (Android, IOS).
+
+> Elementos React Native, Diferenças : Não possuem diferenças significativas quanto ao aspecto semântico. A estilização é feita por meio de objetos StyleSheet que é renderizada pela classe StyleSheet do React-Native. Propriedades de estilo são em CamelCase. Não possuie Herança de Estilo, todo componente deve ser estilizado de maneira individual.
+
+> Deep Link: Maneira nativa de chamar uma aplicação dentro de um SO Mobile.
+
+### Aula 05
+
+#### Conceitos aprendidos
+
+> Validações com Celebrate: Celebrate é uma biblioteca JavaScript para validação, que é uma facitora da implementação do Joi. No códgio, você adiciona nas rotas logo após o endereço da rota as validações, e o Express por funcionar no estilo Medware irá executar a sequencia Rota, Validação, Ação... por isso é importante fazer a validação antes da ação. As validações do Joi apresentam um padrão, que se resume a Joi (TIPO.OBRIGATORIEDADE.DETALHES_CAMPO). O Celebrate já tem uma biblioteca padrão de personalização de erro, e é muito simples, basta no index.js fazer o use de erros, da biblioteca do Celebrate. O Celebrate permite você validar todos os campos por tipo em uma mesma requisição, juntos, Header, Body, Query etc...
+
+> Teste automátizados com Jest : Framework para desenvolvimento de testes no Node, React e até ReactNative. Para usar necessário começar fazendo um npx jest --init. Os 2 mais importantes testes seriam os unitários (unit) e os de integração (integration).
+
+> Teste de Integração : Esse tipo de Teste toca varias parte da aplicação, testando por completo uma funcionalidade.
+
+> Teste Unitário : Esse tipo de Teste encosta em um setor muito isolado da aplicação tem por objetivo testar uma unidade bem finita de código. Alto muito expecifico.
+
+> Biblioteca cross-env : Usada para diferenciar os ambientes por meio do package.json.
+
+> Biblioteca supertest : Biblioteca com ferramentas para teste, entre elas um "CHAMADOR" de API, ou seja requisições HTTP.
+
+> NOTAS: Seria interessante usar o jest e supertest como dependências de desenvolvimento. Usando o -D na hora da instalação.
+
 ## 🔖 Layout
 
 **Web**
