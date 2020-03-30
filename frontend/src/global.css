@@ -51,4 +51,22 @@ form input {
     filter: brightness(90%);
 }
 
+.back-Link {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.back-Link svg {
+    margin-right: 8px;
+}
+
+.back-Link:hover {
+    opacity: 0.8;
+}
 
