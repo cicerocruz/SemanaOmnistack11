@@ -39,6 +39,33 @@
 
 <br>
 
+## :bulb: Melhorias 
+
+Melhorias efetuadas por mim no código e na interface...
+
+**BackEnd**
+
+> Ajuste no cors necessário no meu sistema em Windows
+<img src=".github/BackEnd - Ajuste para o CORS aceitar http Local.PNG" width="620px" >
+<br>
+
+> Deletar ONG para facilitar a manutenção
+<img src=".github/BackEnd - Futuro Módulo de Manutenção - Deletar ONG.PNG" width="620px" >
+<br>
+
+> Coloquei proteção simples no código para previnir  numero Randomico repetido
+<img src=".github/BackEnd - Coloquei proteção simples no código para previnir  numero Randomico repetido.PNG" width="620px" >
+<br>
+
+**FrontEnd**
+
+> Ajuste do CSS do Botão Logon para ficar mais coerente com a interface
+<img src=".github/Ajuste do CSS do Botão Logon.PNG" width="620px" >
+<br>
+
+> Ajuste do CSS do Botão Deletar Caso para ficar mais coerente com a interface
+<img src=".github/Ajuste do CSS do Botão Deletar Caso.PNG" width="620px" >
+<br>
 
 ## 🔧 Tecnologias
 
@@ -204,32 +231,6 @@ A partir dessas informações toda a sociedade pode contruibir com um determinad
 <img src=".github/home.jpeg" width="620px" >
 <br>
 <img src=".github/detalhescaso.jpeg" width="620px" >
-<br>
-
-## :bulb: Melhorias 
-
-**BackEnd**
-
-> Ajuste no cors necessário no meu sistema em Windows
-<img src=".github/BackEnd - Ajuste para o CORS aceitar http Local.PNG" width="620px" >
-<br>
-
-> Deletar ONG para facilitar a manutenção
-<img src=".github/BackEnd - Futuro Módulo de Manutenção - Deletar ONG.PNG" width="620px" >
-<br>
-
-> Coloquei proteção simples no código para previnir  numero Randomico repetido
-<img src=".github/BackEnd - Coloquei proteção simples no código para previnir  numero Randomico repetido.PNG" width="620px" >
-<br>
-
-**FrontEnd**
-
-> Ajuste do CSS do Botão Logon para ficar mais coerente com a interface
-<img src=".github/Ajuste do CSS do Botão Logon.PNG" width="620px" >
-<br>
-
-> Ajuste do CSS do Botão Deletar Caso para ficar mais coerente com a interface
-<img src=".github/Ajuste do CSS do Botão Deletar Caso.PNG" width="620px" >
 <br>
 
 ## 💬 Contato
