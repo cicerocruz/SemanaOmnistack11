@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi' ; //Feather icons
 import api from '../../services/api';
 
@@ -8,11 +8,15 @@ import './styles.css';
 import logoImg from '../../assets/logo.svg';
 
 export default function Register() {
+
+  const history = useHistory();
+  
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [whatsapp, setWhatsapp] = useState('');
   const [city, setCity] = useState('');
   const [uf, setUf] = useState('');
+
 
   async function handleRegister(e){
     e.preventDefault();
@@ -25,9 +29,13 @@ export default function Register() {
                  };
 
     try{
+      // Cícero Cruz - 31/03/2020
+      // no meu deu erro usando localhost  eu  tive que  ajustar as permições no baseURL para 'http://127.0.0.1:3333' na api e 
+      // no cors fazer um ajuste para  autorizar http... direto pelo localhost não funcionou na minha maquina.
       const response = await api.post('ongs', data);
-      console.log(response);
+      //console.log(response);
       alert(`Seu ID de acesso: ${response.data}`);
+      history.push('/');
     }catch (err) {
       alert('Erro no cadastro, tente novamente!')
     }
