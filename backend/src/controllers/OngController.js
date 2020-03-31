@@ -46,6 +46,8 @@ module.exports = {
         console.log(id_search);
 
         if ( typeof id_search  !== 'undefined' ) { 
+            // Verifica se o ID Randomico já  existe se existe  gera uma segunda  vez
+            // Melhoria Futura => por em um ForEach para previnir tentativa de imclusão 
             console.log("Dado Encontrado!");
             if ( id === id_search.id ) {
                 console.log("id JÁ Existe!");
@@ -53,6 +55,7 @@ module.exports = {
                 id = (crypto.randomBytes(4).toString('HEX')).toUpperCase();
                 console.log("Novo ID!");
                 console.log(id);
+                // Melhoria Futura => por um Try - Cath para previnir o erro na inclusão 
                 await connection('ongs').insert({
                     id,
                     name,
@@ -101,7 +104,9 @@ module.exports = {
 
         if ( ong.id !== id )
             response.status(401).json({ error: "Operation not permitted" });
-    
+        
+        // Verificar se a ONG possui casos antes de deletar ela - se  tiver - Impedir a esclusão
+
         await connection("ongs")
             .where("id", id)
             .delete();
