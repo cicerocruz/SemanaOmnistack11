@@ -15,9 +15,9 @@ export default function Register() {
             <h1>Cadastro</h1>
             <p>Faça seu cadastro, cadastre seus casos e encontre pessoas que querem ajudar...</p>
             <Link className="back-Link" to="/">
-                < FiArrowLeft size={16} color="#E02041" />
+                < FiArrowLeft color="#E02041" />
                 Já possuo cadastro!
-              </Link>
+            </Link>
         </section>
         <form>
           <input placeholder="Nome da ONG"/>
