@@ -16,6 +16,7 @@ routers.get('/profile', ProfileController.index);
 routers.post('/ongs', OngController.create);
 routers.get('/ongs', OngController.index);
 routers.get('/ongs/:id', OngController.search);
+routers.delete('/ongs/:id', OngController.delete);
 
 routers.get('/incidents', IncidentController.index);
 routers.post('/incidents', IncidentController.create);

@@ -86,5 +86,26 @@ module.exports = {
 
 
         return response.json(id);
+    },
+    async delete(request, response) {
+        const { id } = request.params;
+ 
+        const ong = await connection("ongs")
+                               .where("id", id)
+                               .select('id')
+                               .first();
+  
+        if ( !ong ) {
+            response.status(404).json({ error: "Incident not found" });
+        }
+
+        if ( ong.id !== id )
+            response.status(401).json({ error: "Operation not permitted" });
+    
+        await connection("ongs")
+            .where("id", id)
+            .delete();
+    
+        return response.status(200).send({msg: "ONG was successfully deleted" });
     }
 };
