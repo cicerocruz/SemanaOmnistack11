@@ -206,9 +206,19 @@ A partir dessas informações toda a sociedade pode contruibir com um determinad
 <img src=".github/detalhescaso.jpeg" width="620px" >
 <br>
 
+## 💬 Melhorias
+
+**BackEnd**
+
+> Ajuste no cors necessário no meu sistema em Windows
+
+<img src=".github/BackEnd - Ajuste para o CORS aceitar http Local.PNG" width="620px" >
+<br>
+
+
 
 ## 💬 Contato
-------------------
+
 Obrigado por chegar até aqui! 
 
 [*Entre em contato comigo*](https://www.linkedin.com/in/cicerocruz/)
