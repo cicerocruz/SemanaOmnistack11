@@ -4,7 +4,17 @@ const routers = require('./routes');
 
 const app = express();
 
-app.use(cors());
+var corsOptionsDelegate = function (req, callback) {
+    var corsOptions;
+    
+    corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
+    //corsOptions = { origin: false } // disable CORS for this request
+    callback(null, corsOptions) // callback expects two parameters: error and options
+  }
+
+  app.use(cors());
+//app.use(cors(corsOptionsDelegate));
+app.options('*', cors(corsOptionsDelegate)) // include before other routes
 
 app.use(express.json());
 
