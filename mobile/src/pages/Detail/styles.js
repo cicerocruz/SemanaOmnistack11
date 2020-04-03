@@ -42,10 +42,9 @@ export default StyleSheet.create({
         color: '#13131a',
         lineHeight: 30,
     },
-    heroTitle: {
+    heroDescription: {
         fontSize: 15,
         color: '#737380',
-        marginTop: 16,
     },
     actions: {
         marginTop: 16,
