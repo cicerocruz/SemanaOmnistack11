@@ -14,7 +14,7 @@ export default function Incidents() {
     
     const [incidents, setIncidents] = useState([]);
     const [total, setTotal] = useState(0);
-    const [page, setPage] = useState(0);
+    const [page, setPage] = useState(1);
     const [loading, setLoading] = useState(false);
     
     async function loadIncidents(){
